@@ -1,0 +1,18 @@
+---
+layout: post
+title: What makes a good free online game?
+---
+
+Recently a couple friends and I worked together on developing a networking, multiplayer, real-time, platforming game called [Sumo Chicken](https://sumo-chicken.herokuapp.com/). Grab a friend and achieve total chicken domination!
+
+![Sumo Chicken Preview]({{ site.url }}/images/sumo-chicken-preview.png)
+
+I'm going to write several posts about my experience working on this game and I'd like to start by talking about our general game design decisions. Our game took heavy inspiration from [Agar](http://agar.io) (Go play it!!!). Agar is an absolutely fascinating game. On the surface Agar doesn't seem like a very good idea at all. It just looks like a few colored circles bumping into each other on a white background. However, it somehow manages to be insanely fun inspite of its simplicity. At any given moment, Agar has hundreds of thousands of players around the world playing together. Our team wanted to distill the parts of Agar that make it so compelling, and add our own creative spin. Thus, Sumo Chicken was born. 
+
+Our primary concern was making the game easy to play. We saw this goal as having two sides: that there should be as little overhead in joining a game as possible and that the game itself should be intutive and simple. I myself have stopped playing plenty of online games at the log in screen. Requiring players to create an account, customize their experince, or even just navigate through a menu system can be enough to lose them. By only requiring a nickname, Sumo Chicken streamlines the user experince and eliminates annoying overhead tasks.
+
+The other huge emphasis in the design process was keeping the game as simple and intuitive as possible. Left and right arrow keys, space bar and the 'C' button. These four buttons span all possible inputs. Not to say that all games with complex controls are bad (I'm a pretty huge Starcraft 2 fan afterall), but free online games should be very straight forward to pick up. Players haven't invested money into free game, so if they feel confused or overwelmed by the controlls, the'll just leave. Besides the controlls, we wanted to avoid making a game that needed to be explained through a tutorial system. If you can't figure out how to play Sumo Chicken after two minutes of goofing around, then there's not much a tutorial can help with either.
+
+So, what exactly makes a simple game like Agar fun? The same thing that can make playing Hello Kitty Roller Rescue on the couch with a friend just as fun as a AAA game title: human interaction. When you get two multiple players together, the number of ways to play is only limited by their creativity and curiosity. In Agar the general aim is eating other players, but how you accomplish that goal, or even whether that's the goal you try to accomplish, is completely up to you. Strategies range from being hyper-agressive, cooperative, sneaky, peaceful, crazy or even just plain suicidal. We sought to also encourage players to play creatively by making death inevtiable and respawn painless and quick. The character becomes faster and jumps higher after every kill, which is enough to encourage players to avoid death, but it is still easy enough to die that they will keep experimenting with their play style.
+
+Sumo Chicken has some pretty lofty goals, so reach out and let me know if you think it accomplishes them! 

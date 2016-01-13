@@ -14,9 +14,16 @@ The demo above shows D3 forces in action. Grab one of the balls and start moving
 Start by making a simple dataset like the one below.
 
   <code>
-  
-    var data = [{color: 'red'}, {color: 'orange'}, 
-                {color: 'yellow'}, {color: 'green'}, 
+
+    var width = 800;
+    var height = 600;
+
+    var svg = d3.select('svg')
+        .attr('height', height)
+        .attr('width', width);
+
+    var data = [{color: 'red'}, {color: 'orange'},
+                {color: 'yellow'}, {color: 'green'},
                 {color: 'blue'}, {color: 'purple'}];
 
   </code>
@@ -67,7 +74,7 @@ Our final step is to create the tick function that we used before. This is where
       circles
           .each(collide(.5))
           .attr("cx", function(d) { return d.x; })
-          .attr("cy", function(d) { return d.y; });          
+          .attr("cy", function(d) { return d.y; });
     }
 
   </code>
@@ -94,7 +101,7 @@ Now before you scream "This is waaaay easy" and stop reading, we've got one more
                 y = d.y - quad.point.y,
                 l = Math.sqrt(x * x + y * y),
                 r = d.r + quad.point.r;
-            
+
             // check if data points are overlapping
             if (l < r) {
               l = (l - r) / l * alpha;

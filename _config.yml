@@ -6,7 +6,7 @@
 name: Chris Lockwood
 
 # Short bio or description (displayed in the header)
-description: The Web Developer with a Heart of Gold
+description: The Game Dev with a Heart of Gold
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/9260867?v=3
@@ -19,14 +19,14 @@ avatar: https://avatars.githubusercontent.com/u/9260867?v=3
 footer-links:
   dribbble:
   email: chrslckwd@gmail.com
-  facebook: 
+  facebook:
   flickr:
   github: knockoutdonkey
   instagram:
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/chrislockwood92
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: 
+  twitter:
   stackoverflow: "users/4081518/knockoutdonkey" # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/

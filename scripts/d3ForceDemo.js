@@ -3,10 +3,10 @@ var height = 600;
 
 var svg = d3.select('svg')
     .attr('height', height)
-    .attr('width', width)
+    .attr('width', width);
 
-var data = [{color: 'red'}, {color: 'orange'}, 
-            {color: 'yellow'}, {color: 'green'}, 
+var data = [{color: 'red'}, {color: 'orange'},
+            {color: 'yellow'}, {color: 'green'},
             {color: 'blue'}, {color: 'purple'}];
 
 var force = d3.layout.force()
@@ -35,7 +35,7 @@ function tick(e) {
   circles
       .each(collide(.2))
       .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });          
+      .attr("cy", function(d) { return d.y; });
 }
 
 function collide(alpha) {
